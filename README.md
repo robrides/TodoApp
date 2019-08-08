@@ -12,7 +12,7 @@ The purpose of this program is to allow a user to create a list of tasks for whi
 Users are prompted to register or login. Once logged in, they are prsented with their Todo list for which they can add or delete tasks.
 
 ## Entity Relationship Diagram
-![](DB/todoapp.png)
+![](DB/tododb.png)
 
 ## UML Diagram
 ![](TodoJPA/todoUML.png)
