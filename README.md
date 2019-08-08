@@ -11,12 +11,12 @@ The purpose of this program is to allow a user to create a list of tasks for whi
 ## How to Use
 Users are prompted to register or login. Once logged in, they are prsented with their Todo list for which they can add or delete tasks.
 
+## Technologies Used
+Java, SQL, Typescript, Angular, Spring Tool Suite, Hibernate, MySQL, VS Code, Spring Boot, Gradle, C.R.U.D, Bash Terminal, Github, Postman, MAMP, Bootstrap, Apache Tomcat, Amazon Web Services (AWS), MacDown, Atom
+
 ## Entity Relationship Diagram
 ![](DB/tododb.png)
 
 ## UML Diagram
 ![](TodoJPA/todoUML.png)
-
-## Technologies Used
-Java, SQL, Typescript, Angular, Spring Tool Suite, Hibernate, MySQL, VS Code, Spring Boot, Gradle, C.R.U.D, Bash Terminal, Github, Postman, MAMP, Bootstrap, Apache Tomcat, Amazon Web Services (AWS), MacDown, Atom
 
