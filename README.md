@@ -1,6 +1,6 @@
 ---
 # TodoApp
-### Full Stack Final Project for Skill Distillery
+### Full Stack Project for Skill Distillery
 
 ## Overview
 This application implements full C.R.U.D functionality, using Spring Data JPA, RESTful services, and Angular 8. It was developed as part of a lesson for the course.
