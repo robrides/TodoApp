@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.skilldistillery.todoapp.entities.Todo" project="TodoJPA" 
     file="/TodoJPA/src/main/java/com/skilldistillery/todoapp/entities/Todo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="641" width="345" x="35" y="-188"/>    
+    <position height="-1" width="-1" x="572" y="136"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="com.skilldistillery.todoapp.entities.User" project="TodoJPA" 
     file="/TodoJPA/src/main/java/com/skilldistillery/todoapp/entities/User.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="626" y="115"/>    
+    <position height="-1" width="-1" x="136" y="140"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -20,19 +20,27 @@
     </display>  
   </class>  
   <association id="3">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="4" name="user"/>      
-      <multiplicity id="5" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="4" name="todos">        
+        <position height="0" width="0" x="365" y="4"/>      
+      </attribute>      
+      <multiplicity id="5" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="365" y="4"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="6">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="7" name="todos"/>      
-      <multiplicity id="8" minimum="0" maximum="2147483647"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="7" name="user">        
+        <position height="0" width="0" x="-490" y="25"/>      
+      </attribute>      
+      <multiplicity id="8" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-490" y="25"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
